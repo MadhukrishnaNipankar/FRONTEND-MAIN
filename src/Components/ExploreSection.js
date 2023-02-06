@@ -13,7 +13,6 @@ function ExploreSection() {
         <StreamCard1 />
         <StreamCard1 />
         <StreamCard1 />
-        <StreamCard1 />
       </div>
     </div>
   );
