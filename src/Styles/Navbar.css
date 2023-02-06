@@ -1,5 +1,6 @@
 #navbar {
-    width: 100vw;
+    width: 100%;
+    min-width: fit-content;
     height: 7rem;
     background: linear-gradient(180deg, #282828 0%, #252525 100%);
 }

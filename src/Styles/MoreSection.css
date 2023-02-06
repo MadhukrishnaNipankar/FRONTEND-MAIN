@@ -1,5 +1,5 @@
 #MoreSection {
-    width: 99%;
-    height: 40rem;
+    width: 100%;
+    height: fit-content;
     background-color: #252525;
 }

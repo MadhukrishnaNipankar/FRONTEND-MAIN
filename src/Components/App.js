@@ -4,6 +4,7 @@ import "../Styles/App.css";
 import Navbar from "./Navbar";
 import MoreSection from "./MoreSection";
 import MainSectionHomepage from "./MainSectionHomepage";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <MainSectionHomepage />
       <MoreSection />
+      <Footer />
     </div>
   );
 }
