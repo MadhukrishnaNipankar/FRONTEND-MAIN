@@ -55,7 +55,7 @@
     margin: 3rem;
 }
 
-#navbar-section2-searchBar input {
+#navbar-section2-searchBar {
     width: 14.5rem;
     height: 1.81rem;
     background: #6C6C6C;
@@ -63,10 +63,23 @@
     border: none;
 }
 
+#navbar-section2-searchBar input {
+    font: bold;
+    background: #6C6C6C;
+    outline: none;
+    border: none;
+}
+
+#navbar-section2-searchBar input:focus {
+    color: #F58C1F;
+    border: none;
+}
+
 #navbar-section2-searchBar img {
     position: relative;
-    left: 2rem;
+    left: -1.1rem;
     top: 0.4rem;
+    font-size: 2rem;
 }
 
 #navbar-section2-Btns {
@@ -88,6 +101,11 @@
     letter-spacing: 0.1em;
 }
 
+#navbar-section2-Btns #login:hover {
+    color: #F58C1F;
+    cursor: pointer;
+}
+
 #navbar-section2-Btns #signup {
     color: #FFFFFF;
     width: 6.75rem;
@@ -103,9 +121,23 @@
     letter-spacing: 0.1em;
 }
 
+#navbar-section2-Btns #signup:hover {
+    color: #F58C1F;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
 
 /* utility classes  */
 
 .border {
     border: 2px solid red;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    #navbar-section2-searchBar img {
+        left: 0rem;
+    }
 }

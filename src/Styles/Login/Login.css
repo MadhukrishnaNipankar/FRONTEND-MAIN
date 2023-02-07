@@ -1,3 +1,41 @@
-div {
-    color: yellow;
+#loginPage {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+}
+
+#loginImg {
+    width: 60%;
+}
+
+#loginImg img {
+    width: 100%;
+    height: 100%;
+}
+
+#loginForm {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+}
+
+#loginForm-logo {
+    max-width: 32rem;
+    margin-top: 4rem;
+}
+
+#loginForm-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+#loginHere {
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 1.4rem;
+    font-size: 3rem;
+    line-height: 7rem;
+    text-align: center;
+    color: #FFFFFF;
 }

@@ -45,3 +45,27 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+/* Responsiveness in terms of Zoom*/
+
+@media only screen and (max-width: 1356px) {
+  html {
+    zoom: 0.7;
+  }
+}
+
+
+@media only screen and (max-width: 960px) {
+  html {
+    zoom: 0.5;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  html {
+    zoom: 0.3;
+  }
+}
