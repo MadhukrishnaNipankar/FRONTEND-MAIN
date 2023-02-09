@@ -1,41 +1,202 @@
+/* .border {
+    border: 2px solid red;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Jura&family=Koulen&family=Poppins:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura&family=Koulen&family=Poppins:wght@200;300;900&display=swap');
+
 #loginPage {
-    width: 100vw;
-    min-height: 100vh;
+    width: 100%;
+    height: 100vh;
     display: flex;
+    font-family: 'Jura', sans-serif;
 }
 
-#loginImg {
+#loginImage {
+    /* border: 2px solid white; */
     width: 60%;
 }
 
-#loginImg img {
+#loginImage img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 #loginForm {
+    color: white;
+    min-width: 40%;
+    width: auto;
     display: flex;
-    align-items: center;
     flex-direction: column;
-    width: 40%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 
-#loginForm-logo {
-    max-width: 32rem;
-    margin-top: 4rem;
+#dreamifyLogo {
+    max-width: 30rem;
+    max-height: 8rem;
 }
 
-#loginForm-logo img {
+#dreamifyLogo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#loginHereTextContainer {
+    margin-top: 3rem;
+    width: 25rem;
+    height: 4rem;
+    /* border: 2px solid red; */
+}
+
+#loginHereTextContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#loginHereText {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    bottom: 5.3rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 6rem;
+    text-align: center;
+}
+
+.inputContainer {
+    margin: 1.5rem;
+    width: 30rem;
+    height: 3.2rem;
+    /* border: 2px solid red; */
+    background: #6C6C6C;
+    box-shadow: inset 0px 4.78956px 4.78956px -1.19739px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    /* border-radius: 107.765px; */
+}
+
+#password-input {
+    margin-top: 1rem;
+    position: relative;
+    right: 4rem;
+    border-top-right-radius: 107px;
+    border-bottom-right-radius: 107px;
+}
+
+#password-input input {
+    background: #6C6C6C;
+    box-shadow: inset 0px 4.78956px 4.78956px -1.19739px rgba(0, 0, 0, 0.25);
+    border: none;
+    color: white;
+    font-family: 'Jura', sans-serif;
+    font-size: 1.2rem;
+}
+
+#password-input input::placeholder {
+    color: white;
+    font-family: 'Jura', sans-serif;
+    font-size: 1.4rem;
+    padding: 2rem;
+}
+
+
+#username-input {
+    position: relative;
+    left: 4rem;
+    border-top-left-radius: 107px;
+    border-bottom-left-radius: 107px;
+}
+
+#username-input input {
+    background: #6C6C6C;
+    box-shadow: inset 0px 4.78956px 4.78956px -1.19739px rgba(0, 0, 0, 0.25);
+    border: none;
+    font-family: 'Jura', sans-serif;
+    font-size: 1.2rem;
+    color: white;
+}
+
+
+#username-input input::placeholder {
+    color: white;
+    font-family: 'Jura', sans-serif;
+    font-size: 1.4rem;
+    padding: 2rem;
+}
+
+#username-input input:focus,
+#password-input input:focus {
+    font-family: 'Jura', sans-serif;
+    color: white;
+    font-size: 1.2rem;
+    outline: none;
+}
+
+#loginButton {
+    width: 15rem;
+    height: 4rem;
+    cursor: pointer;
+    background: #F68C1E;
+    box-shadow: inset 0px 5.88115px 5.88115px -1.47029px rgba(0, 0, 0, 0.25);
+    border-radius: 132.326px;
+
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.7rem;
+    line-height: 2.8rem;
+    color: #FFFFFF;
+}
+
+#loginButton:hover {
+    background: #FFFFFF;
+    box-shadow: inset 0px 5.88115px 5.88115px -1.47029px rgba(58, 58, 58, 0.25);
+    color: #F68C1E;
+}
+
+#rememberMeContainer {
+    margin-top: 1.5rem;
+    display: flex;
+}
+
+#forgottenPasswordContainer {
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+#eyeIcon {
+    max-width: 1.6rem;
+    max-height: 1rem;
+    position: relative;
+    top: 1.2rem;
+    left: 6rem;
+    cursor: pointer;
+}
+
+#eyeIcon img {
     width: 100%;
     height: 100%;
 }
 
-#loginHere {
-    font-style: normal;
-    font-weight: 800;
-    margin-top: 1.4rem;
-    font-size: 3rem;
-    line-height: 7rem;
-    text-align: center;
-    color: #FFFFFF;
+
+/* Responsiveness Here */
+@media only screen and (max-width: 904px) {
+    #loginImage {
+        display: none;
+    }
+
+    #loginForm {
+        width: 100%;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    #loginPage {
+        height: 130vh;
+    }
 }

@@ -10,11 +10,13 @@ import Footer from "./Footer";
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      {/* <Login /> */}
-      <MainSectionHomepage />
-      <MoreSection />
-      <Footer />
+      {/* <div className="HomePage">
+        <Navbar />
+        <MainSectionHomepage />
+        <MoreSection />
+        <Footer />
+      </div> */}
+      <Login />
     </div>
   );
 }
