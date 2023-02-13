@@ -6,17 +6,19 @@ import Login from "./Login/Login";
 import MoreSection from "./MoreSection";
 import MainSectionHomepage from "./MainSectionHomepage";
 import Footer from "./Footer";
+import ProfilePage from "./ProfilePage";
 
 function App() {
   return (
     <div className="App">
-      {/* <div className="HomePage">
-        <Navbar />
+      <Navbar />
+      <div className="HomePage">
         <MainSectionHomepage />
         <MoreSection />
         <Footer />
-      </div> */}
-      <Login />
+      </div>
+      {/* <Login /> */}
+      {/* <ProfilePage /> */}
     </div>
   );
 }

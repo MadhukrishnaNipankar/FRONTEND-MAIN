@@ -51,21 +51,21 @@
 /* Responsiveness in terms of Zoom*/
 
 @media only screen and (max-width: 1356px) {
-  .HomePage {
+  .App {
     zoom: 0.7;
   }
 }
 
 
 @media only screen and (max-width: 960px) {
-  .HomePage {
+  .App {
     zoom: 0.5;
   }
 }
 
 
 @media only screen and (max-width: 600px) {
-  .HomePage {
+  .App {
     zoom: 0.3;
   }
 }
