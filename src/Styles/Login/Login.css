@@ -9,6 +9,8 @@
     height: 100vh;
     display: flex;
     font-family: 'Jura', sans-serif;
+    background-color: #252525;
+
 }
 
 #loginImage {

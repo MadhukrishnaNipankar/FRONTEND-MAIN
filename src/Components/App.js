@@ -11,14 +11,14 @@ import ProfilePage from "./ProfilePage";
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <div className="HomePage">
+      {/* <Navbar /> */}
+      {/* <div className="HomePage">
         <MainSectionHomepage />
         <MoreSection />
         <Footer />
-      </div>
+      </div> */}
       {/* <Login /> */}
-      {/* <ProfilePage /> */}
+      <ProfilePage />
     </div>
   );
 }
