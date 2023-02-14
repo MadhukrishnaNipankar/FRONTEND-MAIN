@@ -1,31 +1,32 @@
 import React from "react";
 import "../Styles/ProfileFormComponent.css";
+
 function ProfileFormComponent() {
   return (
-    <div className="my-5 container">
+    <div id="profileFormComponent" className="container">
       <div
         className="d-flex flex-wrap"
         id="nameContainer"
         style={{ minHeight: "auto" }}
       >
-        <h5 className="my-3 mx-2">Profile Name</h5>
+        <h5 className="my-3 mx-2 font-weight-bold">Profile Name</h5>
         <input
           type="text"
-          className="form-control my-2 mx-2"
+          className="input form-control my-2 mx-2"
           id="firstName"
           placeholder="First Name"
           style={{ maxWidth: "20rem", maxHeight: "3rem" }}
         />
         <input
           type="text"
-          className="form-control my-2 mx-2"
+          className="input  form-control my-2 mx-2"
           id="middleName"
           placeholder="Middle Name"
           style={{ maxWidth: "20rem", maxHeight: "3rem" }}
         />
         <input
           type="text"
-          className="form-control my-2 mx-2"
+          className="input form-control my-2 mx-2"
           id="lastName"
           placeholder="Last Name"
           style={{ maxWidth: "20rem", maxHeight: "3rem" }}
@@ -37,7 +38,7 @@ function ProfileFormComponent() {
           <h5 className="my-3 mx-2">Gender</h5>
           <input
             type="text"
-            className="form-control my-2 mx-2"
+            className="input form-control my-2 mx-2"
             id="gender"
             placeholder="Your Gender"
             style={{ maxWidth: "10rem", maxHeight: "3rem" }}
@@ -48,7 +49,7 @@ function ProfileFormComponent() {
           <h5 className="my-3 mx-2">DOB</h5>
           <input
             type="text"
-            className="form-control my-2 mx-2"
+            className="input form-control my-2 mx-2"
             id="DOB"
             placeholder="Date of Birth"
             style={{ maxWidth: "10rem", maxHeight: "3rem" }}
@@ -59,7 +60,7 @@ function ProfileFormComponent() {
           <h5 className="my-3 mx-2">Location</h5>
           <input
             type="text"
-            className="form-control my-2 mx-2"
+            className="input form-control my-2 mx-2"
             id="location"
             placeholder="Your Location"
             style={{ maxWidth: "20rem", maxHeight: "3rem" }}
@@ -69,12 +70,12 @@ function ProfileFormComponent() {
 
       <section className="d-flex flex-wrap">
         <div id="EmailContainer" className="d-flex flex-wrap">
-          <div class="input-group">
+          <div className="input-group">
             <h5 className="my-3 mx-2">E-mail</h5>
             <input
               type="email"
               id="email"
-              className="form-control my-2 ml-2"
+              className="input form-control my-2 ml-2"
               placeholder="Your Email"
               style={{ maxWidth: "20rem", height: "2.5rem" }}
             />
@@ -89,12 +90,12 @@ function ProfileFormComponent() {
         </div>
 
         <div id="ContactContainer" className="d-flex flex-wrap">
-          <div class="input-group mb-3">
+          <div className="input-group mb-3">
             <h5 className="my-3 mx-2">Contact no.</h5>
             <input
               type="Number"
               id="Number"
-              className="form-control my-2 ml-2"
+              className="input form-control my-2 ml-2"
               placeholder="Your Number"
               style={{ maxWidth: "20rem", height: "2.5rem" }}
             />
@@ -114,7 +115,7 @@ function ProfileFormComponent() {
           <h5 className="my-3 mx-2">Language</h5>
           <input
             type="text"
-            className="form-control my-2 mx-2"
+            className="input form-control my-2 mx-2"
             id="DOB"
             placeholder="language you speak"
             style={{ maxWidth: "18rem", maxHeight: "3rem" }}
@@ -124,7 +125,7 @@ function ProfileFormComponent() {
           <h5 className="my-3 mx-2">Topics you like</h5>
           <input
             type="text"
-            className="form-control my-2 mx-2"
+            className="input form-control my-2 mx-2"
             id="DOB"
             placeholder="topics you’re interested in"
             style={{ maxWidth: "fit-content", maxHeight: "3rem" }}
@@ -133,27 +134,27 @@ function ProfileFormComponent() {
       </section>
       <div id="addressContainer" className="d-flex my-3">
         <h5 className="my-3 mx-2 text-start">Address</h5>
-        <div class="form-floating">
+        <div className="form-floating">
           <textarea
-            class="form-control"
+            className="input form-control"
             id="floatingTextarea2"
             style={{ minHeight: "5rem" }}
             cols={70}
           ></textarea>
-          <label for="floatingTextarea2">Where you live rn</label>
+          <label htmlFor="floatingTextarea2">Where you live rn</label>
         </div>
       </div>
 
       <div id="vibeContainer" className="my-3">
         <h5 className="my-3 mx-2 text-start">What's Your Vibe?</h5>
-        <div class="form-floating">
+        <div className="form-floating">
           <textarea
-            class="form-control"
+            className="input form-control"
             id="floatingTextarea2"
             style={{ minHeight: "5rem" }}
             cols={70}
           ></textarea>
-          <label for="floatingTextarea2">Tell us more about yourself</label>
+          <label htmlFor="floatingTextarea2">Tell us more about yourself</label>
         </div>
       </div>
 
@@ -170,7 +171,7 @@ function ProfileFormComponent() {
             <h5 className="my-3 mx-2">Instagram</h5>
             <input
               type="text"
-              className="form-control my-2 mx-2"
+              className="input form-control my-2 mx-2"
               id="instagram"
               placeholder="Your Link"
               style={{ maxWidth: "18rem", maxHeight: "3rem" }}
@@ -180,7 +181,7 @@ function ProfileFormComponent() {
             <h5 className="my-3 mx-2">Youtube</h5>
             <input
               type="text"
-              className="form-control my-2 mx-2"
+              className="input form-control my-2 mx-2"
               id="youtube"
               placeholder="Your Link"
               style={{ maxWidth: "18rem", maxHeight: "3rem" }}
@@ -190,7 +191,7 @@ function ProfileFormComponent() {
             <h5 className="my-3 mx-2">Facebook</h5>
             <input
               type="text"
-              className="form-control my-2 mx-2"
+              className="input form-control my-2 mx-2"
               id="facebook"
               placeholder="Your Link"
               style={{ maxWidth: "18rem", maxHeight: "3rem" }}
@@ -200,7 +201,7 @@ function ProfileFormComponent() {
             <h5 className="my-3 mx-2">Discord</h5>
             <input
               type="text"
-              className="form-control my-2 mx-2"
+              className="input form-control my-2 mx-2"
               id="discord"
               placeholder="Your Link"
               style={{ maxWidth: "18rem", maxHeight: "3rem" }}
@@ -209,7 +210,7 @@ function ProfileFormComponent() {
         </div>
       </div>
 
-      <button type="button" class="btn btn-warning my-5">
+      <button id="formSubmitBtn" type="button" className="btn btn-warning my-5">
         Submit
       </button>
     </div>

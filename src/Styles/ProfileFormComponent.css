@@ -1,3 +1,31 @@
-input {
-    background-color: #6C6C6C;
+#profileFormComponent {
+    margin-top: 10vh;
+}
+
+.input {
+    border-radius: 1 rem;
+    background-color: #1E1E1E;
+    outline: #f9f9f9;
+    border-color: #6C6C6C;
+}
+
+.input:focus {
+    background-color: #1E1E1E;
+    box-shadow: none;
+    color: white;
+
+}
+
+.input::placeholder {
+    color: #6C6C6C;
+    font-weight: 600;
+}
+
+#formSubmitBtn {
+    background-color: #F58C1F;
+    color: white;
+}
+
+h5 {
+    font-weight: 600;
 }
