@@ -2,6 +2,7 @@ import "../Styles/App.css";
 
 // Component imports
 import Navbar from "./Navbar";
+
 import Login from "./Login/Login";
 import MoreSection from "./MoreSection";
 import MainSectionHomepage from "./MainSectionHomepage";
@@ -11,7 +12,8 @@ import ProfilePage from "./ProfilePage";
 function App() {
   return (
     <div className="App">
-      {/* <Navbar /> */}
+      <Navbar />
+
       {/* <div className="HomePage">
         <MainSectionHomepage />
         <MoreSection />
