@@ -11,8 +11,8 @@
 }
 
 .streamCard1 .streamImage {
-    width: 11.25rem;
-    height: 14.37rem;
+    max-width: 11.25rem;
+    max-height: 14.37rem;
     margin: 0.4rem;
 }
 
@@ -83,4 +83,60 @@
     line-height: 36px;
     letter-spacing: 0.1em;
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 1064px) {
+    .streamCard1 {
+        width: 8rem;
+        height: 16.9rem;
+    }
+
+    .streamCard1 .streamImage {
+        width: 7.25rem;
+        height: 10.37rem;
+        margin: 0.2rem;
+    }
+
+    .streamMetaData {
+        width: 7.25rem;
+        height: 2.37rem;
+        margin: 0.2rem;
+    }
+
+    .streamViews {
+        height: 2rem;
+    }
+
+    .streamViewsNumber {
+        font-size: 0.8rem;
+        line-height: 1.87rem;
+    }
+
+    .streamViewsStatus {
+        font-size: 0.675rem;
+        line-height: 1.3rem;
+    }
+
+    .markFavourite {
+        margin: 0.4rem;
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .markFavourite img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .seperationLine {
+        width: 6.25rem;
+        height: 1.2px;
+        margin-top: 0.9rem;
+    }
+
+    .streamCategory {
+        font-size: 1rem;
+    }
+
+
 }

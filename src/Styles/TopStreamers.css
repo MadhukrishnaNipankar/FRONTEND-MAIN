@@ -18,7 +18,7 @@
     text-align: start;
     font-style: normal;
     font-weight: 800;
-    font-size: 7.5rem;
+    font-size: 4.5vw;
     line-height: 186px;
     letter-spacing: 0.1em;
     color: #252525;
@@ -28,10 +28,9 @@
 #topStreamers-title {
     align-self: flex-start;
     text-align: start;
-    width: 51rem;
     height: 3.3rem;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 2vw;
     line-height: 54px;
     letter-spacing: 0.1em;
     text-transform: uppercase;

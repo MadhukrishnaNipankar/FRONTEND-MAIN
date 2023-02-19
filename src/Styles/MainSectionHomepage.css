@@ -1,6 +1,6 @@
 #MainSectionHomepage {
-    width: 100%;
-    height: 32rem;
+    width: 100vw;
+    height: 72vh;
     background: linear-gradient(177.86deg, #F58C1F 3.31%, #C25902 25.55%, #AE450A 41.85%, rgba(174, 10, 10, 0.26) 98.2%);
     display: flex;
     flex-direction: column;
@@ -8,22 +8,30 @@
 }
 
 #streamingNowHeading {
-    width: 85rem;
-    height: 12.18rem;
-    /* font-family: 'Popp'; */
+    width: 65vw;
+    height: 27vh;
     font-style: normal;
     font-weight: 700;
-    font-size: 7.37rem;
+    font-size: 7vw;
     line-height: 12.18rem;
     background: linear-gradient(179.08deg, rgba(255, 255, 255, 0.4) 10.17%, rgba(255, 255, 255, 0) 113.36%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    /* text-fill-color: transparent; */
 }
 
 #carousel {
     border: 2px solid white;
     position: relative;
-    top: 7rem;
+    top: 10vh;
+}
+
+@media screen and (max-width: 400px) {
+    #MainSectionHomepage {
+        height: 48vh;
+    }
+
+    #streamingNowHeading {
+        height: 20vh;
+    }
 }
