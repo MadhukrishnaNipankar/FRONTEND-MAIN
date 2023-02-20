@@ -5,7 +5,11 @@ function StreamCard1() {
   return (
     <div className="streamCard1">
       <div className="streamImage">
-        <img src="./Images/gamingImg.svg" alt="LIVE..." />
+        <img
+          src="./Images/gamingImg.svg"
+          className="card-img-top"
+          alt="LIVE..."
+        />
       </div>
 
       <div className="streamMetaData">

@@ -9,9 +9,9 @@ function MoreSection() {
   return (
     <div id="MoreSection">
       <ExploreSection />
-      {/* <TrendingSection />
+      <TrendingSection />
       <TopStreamers />
-      <NewStreamers /> */}
+      <NewStreamers />
     </div>
   );
 }

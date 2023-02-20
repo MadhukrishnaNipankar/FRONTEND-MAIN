@@ -97,6 +97,7 @@
     color: white;
     font-family: 'Jura', sans-serif;
     font-size: 1.2rem;
+    margin-left: 8rem;
 }
 
 #password-input input::placeholder {
@@ -121,6 +122,7 @@
     font-family: 'Jura', sans-serif;
     font-size: 1.2rem;
     color: white;
+    margin-right: 8rem;
 }
 
 
@@ -175,8 +177,8 @@
     max-width: 1.6rem;
     max-height: 1rem;
     position: relative;
-    top: 1.2rem;
-    left: 6rem;
+    top: 1rem;
+    left: 2rem;
     cursor: pointer;
 }
 

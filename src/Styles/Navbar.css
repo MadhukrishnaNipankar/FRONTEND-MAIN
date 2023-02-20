@@ -3,8 +3,10 @@
 }
 
 #searchInputContainer {
+    margin: 1rem;
     border: 5rem;
-
+    width: auto;
+    min-width: 10rem;
 }
 
 #searchInputContainer span {
